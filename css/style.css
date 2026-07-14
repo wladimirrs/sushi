@@ -1,0 +1,57 @@
+/*Ueberschrift und Menufuehrung*/
+
+.header {/*kompletter Header*/
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.markentitel {/*Große Ueberschrift*/
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+
+
+
+.topnav ul {/*Menu-Liste*/
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    gap: 70px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.topnav a {/*Link-Farbe schwarz*/
+    text-decoration: none;
+    color: black;
+}
+
+.topbuttons button {/*10px Abstand vom Button-Text oben und unten, 20px links und rechts. Pointer = Hand beim Hovern*/
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/*Mittelteil*/
+
+main {
+    background-color: lightgray;
+    min-height: 100vh;
+}
+
+
+
+
