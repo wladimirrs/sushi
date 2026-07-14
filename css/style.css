@@ -36,6 +36,14 @@
     cursor: pointer;
 }
 
+.dreibuttons {
+    background-color: rgb(208, 162, 126);
+}
+
+.einbuttons {
+    background-color: rgb(255, 0, 89);
+}
+
 
 
 
